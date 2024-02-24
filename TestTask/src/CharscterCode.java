@@ -3,9 +3,7 @@ public enum CharscterCode {
     NEXT_ANSWER('N'),
     WAITING_TIMELINE('C'),
     QUERY('D');
-
     private final char code;
-
     CharscterCode(char code) {
         this.code = code;
     }
